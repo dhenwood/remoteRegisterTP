@@ -6,7 +6,7 @@ myCredentials = "YWRtaW46" #default username/password (base64 encoded) [admin:]
 
 myEndpoints = [
         {"addr": "10.20.30.40", "code": "1111-2222-3333-4444"},
-		{"addr": "10.20.30.45", "code": "5555-6666-7777-8888"}
+	{"addr": "10.20.30.45", "code": "5555-6666-7777-8888"}
         ]
 
 def buttonPress(myIpAddr,button,delay):
