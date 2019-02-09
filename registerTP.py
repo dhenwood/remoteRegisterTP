@@ -38,6 +38,6 @@ for endpoint in myEndpoints:
         buttonPress(myIpAddr=device, button="ok", delay=30)     #Submit activation code (then registers)
 
 
-input("\nFrom Webex Control Hub, lookup your device and Launch Advanced Settings. From the menu select Security, Users and select admin and reactivate user.\nPress any key when complete ")
-buttonPress(myIpAddr=device, button="ok", delay=4)      #Set Timezone page
-buttonPress(myIpAddr=device, button="ok", delay=4)      #Final successfully registered device
+	input("\nFrom Webex Control Hub, lookup your device and Launch Advanced Settings. From the menu select Security, Users and select admin and reactivate user.\nPress any key when complete ")
+	buttonPress(myIpAddr=device, button="ok", delay=4)      #Set Timezone page
+	buttonPress(myIpAddr=device, button="ok", delay=4)      #Final successfully registered device
